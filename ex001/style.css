@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Indie Flower", cursive;
+}
+body {
+  background-color: #fefae0;
+  overflow-y: hidden;
+}
+header {
+  background-color: #dda15e;
+  padding: 10px;
+  width: 100%;
+  z-index: 1;
+}
+a,
+header h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #bc6c25;
+}
+#Hour,
+#Hour .conteiner h2 {
+  justify-content: center;
+  display: flex;
+}
+header a {
+  text-decoration: none;
+  color: #fefae0;
+}
+header a:hover {
+  text-transform: uppercase;
+}
+#Hour {
+  align-items: center;
+  position: relative;
+  height: 100vh;
+}
+#Hour .conteiner h2 {
+  align-items: center;
+  margin-top: 4px;
+  color: #fefae0;
+  font-size: 30px;
+}
+#Hour .conteiner {
+  position: absolute;
+  width: 600px;
+  height: 800px;
+  margin-top: -90px;
+  border-radius: 50px;
+  background: #d18c4f;
+  box-shadow: inset 20px 20px 60px #df9351, inset -20px -20px 60px #f5a55f;
+}
+#Hour .conteiner_hora {
+  position: absolute;
+  width: 500px;
+  height: 700px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #dda15e;
+  border-radius: 50px;
+}
+#Hour .conteiner_hora h3 , p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  color: #fefae0;
+  font-size: 30px;
+}
+#Hour .conteiner_hora img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+#Hour .conteiner_hora .horadia {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
